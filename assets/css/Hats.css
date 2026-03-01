@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background: rgb(255, 255, 255); font-family: calibri; padding-right: 20px;padding-left: 20px; margin-bottom: 50px; padding-top: 10px; padding-bottom: 10px;
+    box-shadow: 0 0 5px rgba(59, 59, 59, 0.5);
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between; 
+}
+.navdiv ul a{
+    transition: 0.5s;
+}
+.navdiv ul li a:hover{
+    opacity: .6;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: rgb(133, 133, 133); font-family: Helvetica;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: rgb(133, 133, 133); font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+.phrase{
+    font-family: Arial; font-size: 70px; text-align: center; font-weight: bold; color: rgb(255, 255, 255); position: absolute; top: 280px; right: 200px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+  }
+.image button{
+    font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: rgb(168, 168, 168); position:absolute; top: 380px; right: 510px; border: none; outline: none; padding: 8px 16px; border-radius: 10px;
+    background-color: rgb(255, 255, 255); transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+    
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(163, 163, 163, 0.5);
+}
+.image button:hover{
+    opacity: .6;
+    transform: translateY(-3px);
+}
+.sign{
+    position: absolute; top: 17px; right: 30px;
+}
+body {
+    overflow-x: hidden; 
+    }
+    .artists{
+        display: flex; 
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+.bg{
+    width:1920px; /* or whatever width you want. */
+    max-width:1920px; /* or whatever width you want. */
+   
+ }
+.footerNav{
+    margin: 40px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    font-size: 1.3em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerNav ul li a:hover{
+    opacity: .5;
+}
+.logo a{
+    transition: 0.5s;
+}
+.logo a:hover{
+    opacity: .6;
+    
+}
+.artists li a:hover{
+    opacity: .8;
+    transform: translateY(-3px);
+}
+
+.artists li a{
+    transition: 0.3s;
+    display: inline-block; /* allow transforms on the link */
+    margin-bottom: 40px; /* add some space below the link */
+}
+.footerBottom{
+    background-color: rgb(179, 179, 179);
+    padding: 18px;
+    text-align: center;
+}
+.footerBottom p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footer{
+    background-color: rgb(202, 202, 202); padding-top: 10px;
+    margin-top: auto;
+}
+
+.container{
+    margin: 0 15px;
+}
+
+.form-box{
+    width: 100%;
+    max-width: 450px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(59, 59, 59, 0.5);
+    padding: 30px;
+    display: none;
+}
+
+.form-box.active{
+    display: block; 
+}
+
+.form-box h2{
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(133, 133, 133);
+}
+
+.form-box input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(224, 224, 224);
+    
+}
+
+.form-box button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(104, 104, 104);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-box button:hover{
+    opacity: .6;
+}
+
+.form-box p{
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(133, 133, 133);
+    margin-top: 18px;
+}
+
+.form-box a{
+    color: rgb(68, 68, 68);
+    transition: 0.5s;
+}
+
+.form-box a:hover{
+    opacity: .6;
+}
+
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.checkbox-group input[type="checkbox"]{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+}
+
+.checkbox-group label{
+    margin: 0;
+    font-size: 16px;
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+}
+
+#error{
+    color: red;
+    margin-bottom: 20px;
+
+}
+
+.error-message{
+    padding: 12px;
+    background-color: #f8d7da;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #a42834;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profileBar{
+    width: 300px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(133, 133, 133);
+    position: fixed;   /* keep on screen */
+    top: 0;            /* align to top edge */
+    right: 0;           /* align to left edge */
+    z-index: 1000;     /* sit above the navbar */
+    box-shadow: 0 0 5px rgba(153, 153, 153, 0.5);
+    right: -300px; /* start off-screen */
+    transition: right 0.3s ease;
+}
+.is-open{
+    width: 300px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(133, 133, 133);
+    position: fixed;   /* keep on screen */
+    top: 0;            /* align to top edge */
+    right: 0;           /* align to left edge */
+    z-index: 1000;     /* sit above the navbar */
+    box-shadow: 0 0 5px rgba(153, 153, 153, 0.5);
+    right: 0;
+    
+}
+.profileBar h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.profileBar .profilePic{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profileBar .profileInfo{
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.profileBar .profileName{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(133, 133, 133);
+    margin-bottom: 5px;
+}
+.profileBar .profileEmail{
+    font-size: 18px;
+    color: rgb(168, 168, 168);
+}
+.logout-btn, .signin-btn{
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+    margin-top: 370px;
+}
+
+/* logout button shown/hidden via server-side logic */
+/* you can also toggle with JS if needed */
+.active-logout-btn{
+    display: flex;
+    display: block;
+}
+.logout-btn:hover{
+    opacity: .6;
+    transform: translateY(-3px);
+}
+.signin-btn:hover{
+    opacity: .6;
+    transform: translateY(-3px);
+}
+.profileBar .close{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 24px;
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 40px;
+}
+.profileBar .close:hover{
+    opacity: .3;
+}
